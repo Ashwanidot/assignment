@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from '../src/components/header';
+import SideBar from './components/sideBar';
+import { BrowserRouter , Route , Routes} from 'react-router-dom';
+import DashBoard from '../src/pages/Dashboard';
+import Coupen from './pages/Coupen';
+import Customer from './pages/Customer';
+import Package from './pages/Package';
+import Poll from './pages/Poll';
+import User from './pages/User';
+import Setting from './pages/Setting';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Header />
+    <SideBar>
+      <Routes>
+         <Route path="/" element={<DashBoard />} />
+         <Route path="/dashboard" element={<DashBoard />} />
+         <Route path="/Coupen" element={<Coupen />} />
+         <Route path="/Customer" element={<Customer />} />
+         <Route path="/Package" element={<Package />} />
+         <Route path="/Poll" element={<Poll />} />
+         <Route path="/User" element={<User />} />
+         <Route path="/setting" element={<Setting />} />
+      </Routes>
+      </SideBar>
+    </BrowserRouter>
+
   );
 }
 
