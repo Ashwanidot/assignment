@@ -49,31 +49,31 @@ const Setting = () => {
                 <div>
                     <p style={{fontSize:18}}>Business Name</p>
                 </div>
-                <div style={{backgroundColor:'white' ,border:'1px solid #F7F7FC',paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
+                <div style={{backgroundColor:'white' ,paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
                     <text style={{paddingLeft:20 , paddingTop:20}}>Cappucincai cyin</text>
                 </div>
                 <div>
                     <p style={{fontSize:18}}>Phone Number</p>
                 </div>
-                <div style={{backgroundColor:'white' ,border:'1px solid #F7F7FC',paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
+                <div style={{backgroundColor:'white' ,paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
                     <text style={{paddingLeft:20 , paddingTop:20}}>(208)555-0112</text>
                 </div>
                 <div>
                     <p style={{fontSize:18}}>Email</p>
                 </div>
-                <div style={{backgroundColor:'white' ,border:'1px solid #F7F7FC',paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
+                <div style={{backgroundColor:'white' ,paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
                     <text style={{paddingLeft:20 , paddingTop:20}}>capcyin@hello.com</text>
                 </div>
                 <div>
                     <p style={{fontSize:18}}>Country</p>
                 </div>
-                <div style={{backgroundColor:'white' ,border:'1px solid #F7F7FC',paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
+                <div style={{backgroundColor:'white' ,paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
                     <text style={{paddingLeft:20 , paddingTop:20}}>Indonesia</text>
                 </div>
                 <div>
                     <p style={{fontSize:18}}>Address</p>
                 </div>
-                <div style={{backgroundColor:'white' ,border:'1px solid #F7F7FC',paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
+                <div style={{backgroundColor:'white' ,paddingTop:10 , paddingBottom:10 , width:'78em' ,height:30, borderRadius:8 ,border: '1px solid #F7F7FC'}}>
                     <text style={{paddingLeft:20 , paddingTop:20}}>Wangsu in Village No.221</text>
                 </div>
             </div>
